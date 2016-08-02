@@ -1,0 +1,49 @@
+/**********重置样式***********/
+html {overflow-x:hidden;}
+body {background:#fff;}
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul {margin:0;padding:0}
+body,button,input,select,textarea {font:12px/1.5 "microsoft yahei", tahoma,arial,sans-serif}
+h1,h2,h3,h4,h5,h6 {font-size:100%}
+address,cite,dfn,em,var {font-style:normal;font-weight: normal;}
+code,kbd,pre,samp {font-family:courier new,courier,monospace}
+ol,ul {list-style:none}
+a {text-decoration:none;color:#333;outline:none;}
+a:active {star:expression(this.onFocus=this.blur());} 
+sup {vertical-align:text-top}
+sub {vertical-align:text-bottom}
+legend {color:#000}
+fieldset,img {border:0}
+button,input,select,textarea {font-size:100%}
+table {border-collapse:collapse;border-spacing:0}
+/* 我的通用样式 */
+.fl {float:left;}
+.fr {float:right;}
+.abs{position:absolute;}
+.rel{position:relative;}
+.center{ margin:0px auto;}
+.cli { overflow:hidden;}
+.wp { width:1000px; overflow:hidden;} 
+.yfont { color:#e12401;}
+.bfont { color:#0c84cb;}
+.lfont { color:#6db005;}
+.pfont { color:#f9607e;}
+.gfont { color:#999;} 
+.fred { color:#ff0000;}
+.ml0 { margin-left:0px;}
+.ml10 { margin-left:10px;}
+.ml20 { margin-left:20px;}
+.ml30 { margin-left:30px;}
+.mt10 { margin-top:10px;}
+.mt20 { margin-top:20px;}
+.mt30 { margin-top:30px;}
+.mt40 { margin-top:40px;}
+.mr15 { margin-right:15px;}
+.b0 { border:none !important;}
+.bg0 { background:none !important;}
+.b14 { color:#222; font-size:14px;}
+.b24 { font-size:24px; font-family:Arial; color:#e12502;}
+/* 本项目通用样式 */
+
+.bcca { background-color: #c5000a;}
+.cca {color: #c5000a;}
+.ffyh { font-family: Microsoft YaHei;}
