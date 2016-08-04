@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>首页</title>
+	<title>		首页		</title>
 	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
 	<link rel="stylesheet" href="css/main.css">
-	<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js">
-	</script>
+	<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/swiper.jquery.min.js"></script>
 	<script>
 	$(document).ready(function(){
 	  $(".hide").mouseout(function(){
@@ -22,7 +23,7 @@
 <div class="header">
 	<div class="ac header-ac">
 		<img src="images/logo.png" alt="logo" class="logo">
-		<div class="hot-line">咨询热线：400-964-5556</div>
+		<div class="hot-line">		咨询热线：400-964-5556		</div>
 		<div class="search">
 			<input type="text" class="search-area" placeholder="Search...">
 			<button class="search-btn"><img src="images/search-btn-icon.png" alt=""></button>
@@ -66,8 +67,32 @@
 
 <div class="banner">
 	<div class="ac banner-ac">
-		<img src="images/banner1.jpg" alt="">
+		<!-- Swiper -->
+		<div class="swiper-container container1">
+			<div class="swiper-wrapper wrapper1">
+				<div class="swiper-slide slide1" style="background: url(images/banner1.jpg) no-repeat;  "><a href="" class="slide1-a"></a></div>
+				<div class="swiper-slide slide1" style="background: url(images/banner1.jpg) no-repeat;  "><a href="" class="slide1-a"></a></div>
+				<div class="swiper-slide slide1" style="background: url(images/banner1.jpg) no-repeat;  "><a href="" class="slide1-a"></a></div>
+				<div class="swiper-slide slide1" style="background: url(images/banner1.jpg) no-repeat;  "><a href="" class="slide1-a"></a></div>
+			</div>
+
+		</div>
+		<!-- Add Pagination -->
+		<div class="swiper-pagination pagination1"></div>
 	</div>
+	<script>
+	var swiper = new Swiper('.swiper-container', {
+		pagination: '.swiper-pagination',
+		nextButton: '.swiper-button-next',
+		prevButton: '.swiper-button-prev',
+		paginationClickable: true,
+		spaceBetween: 0,
+		centeredSlides: true,
+		autoplay: 0,
+		autoplayDisableOnInteraction: false,
+		loop: true,
+	});
+	</script>
 </div>
 
 
