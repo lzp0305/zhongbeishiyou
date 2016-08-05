@@ -22,7 +22,7 @@
 <body>
 <div class="header">
 	<div class="ac header-ac">
-		<img src="images/logo.png" alt="logo" class="logo">
+		<a href=""><img src="images/logo.png" alt="logo" class="logo"></a>
 		<div class="hot-line">		咨询热线：400-964-5556		</div>
 		<div class="search">
 			<input type="text" class="search-area" placeholder="Search...">
@@ -81,14 +81,12 @@
 		<div class="swiper-pagination pagination1"></div>
 	</div>
 	<script>
-	var swiper = new Swiper('.swiper-container', {
-		pagination: '.swiper-pagination',
-		nextButton: '.swiper-button-next',
-		prevButton: '.swiper-button-prev',
+	var swiper = new Swiper('.container1', {
+		pagination: '.pagination1',
 		paginationClickable: true,
 		spaceBetween: 0,
 		centeredSlides: true,
-		autoplay: 0,
+		autoplay: 5000,
 		autoplayDisableOnInteraction: false,
 		loop: true,
 	});
@@ -99,7 +97,81 @@
 
 
 
-<div class="container"></div>
+<div class="container">
+	<div class="ac ac-container">
+		<div class="about-us">
+			<div class="title-name"><span class="green-title">公司</span>简介<span class="english-title">ABOUT US</span></div>
+			<div class="main-text">&emsp;&emsp;	中北石化位于京东南大道。成立日期2015年1月28日，占地7000多平方米，固定资产俞亿元。我站有储油罐具、最大储量方。<br>		&emsp;&emsp;		我站软件、硬件设施、消防器材、监控录像设备、及自动报警系统齐全，是专业化、规范化、标准化、信息化的加油站... 		</div>
+			<button class="main-btn">更多</button>
+			
+			<div class="swiper2-box">
+				<div class="swiper-container container2">
+					<div class="swiper-wrapper wrapper2">
+						<div class="swiper-slide slide2" style="background:url(images/about-us-pic1.jpg) no-repeat;">
+							<a href="" class="slide2-a slide2-a-e"></a>
+							<div class="ttt">
+								<p class="slide2-title">油站展示</p>
+								<p class="slide2-title-e">DISPLAY</p>
+								<button class="slide2-btn">更多</button>
+							</div>
+						</div>
+						<div class="swiper-slide slide2" style="background:url(images/about-us-pic1.jpg) no-repeat;">
+							<a href="" class="slide2-a slide2-a-o"></a>
+							<div class="ttt">
+								<p class="slide2-title">油站展示</p>
+								<p class="slide2-title-e">DISPLAY</p>
+								<button class="slide2-btn">更多</button>
+							</div>
+						</div>
+						<div class="swiper-slide slide2" style="background:url(images/about-us-pic1.jpg) no-repeat;">
+							<a href="" class="slide2-a slide2-a-e"></a>
+							<div class="ttt">
+								<p class="slide2-title">油站展示</p>
+								<p class="slide2-title-e">DISPLAY</p>
+								<button class="slide2-btn">更多</button>
+							</div>
+						</div>
+						<div class="swiper-slide slide2" style="background:url(images/about-us-pic1.jpg) no-repeat;">
+							<a href="" class="slide2-a slide2-a-o"></a>
+							<div class="ttt">
+								<p class="slide2-title">油站展示</p>
+								<p class="slide2-title-e">DISPLAY</p>
+								<button class="slide2-btn">更多</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-button-next next2"></div>
+				<div class="swiper-button-prev prev2"></div>
+				<script>
+				var swiper2 = new Swiper('.container2', {
+					slidesPerView: 'auto',
+					nextButton: '.next2',
+					prevButton: '.prev2',
+					paginationClickable: true,
+					spaceBetween: 10,
+					centeredSlides: true,
+					autoplay: 7500,
+					autoplayDisableOnInteraction: false,
+					loop: true,
+				});
+				</script>
+			</div>
+		</div>
+
+
+
+		<div class="video-show"></div>
+
+
+
+		<div class="news"></div>
+
+
+
+		<div class="real-time-prices"></div>
+	</div>
+</div>
 
 
 

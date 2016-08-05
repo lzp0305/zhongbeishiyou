@@ -80,7 +80,7 @@
           padding-left: 24px;
           display: none; }
           .header .nav .nav-ac .nav-ul .nav-li .sub-nav-ul .sub-nav-li {
-            width: 76px;
+            width: 81px;
             height: 37px;
             float: left;
             background: url(../images/sub-nav-li-bg.png) no-repeat; }
@@ -89,15 +89,15 @@
               color: #797979;
               line-height: 37px;
               display: block;
-              text-align: right; }
+              text-indent: 29px; }
           .header .nav .nav-ac .nav-ul .nav-li .sub-nav-ul .sub-nav-li:hover {
             background: url(../images/sub-nav-li-bg-hover.png) no-repeat; }
             .header .nav .nav-ac .nav-ul .nav-li .sub-nav-ul .sub-nav-li:hover .sub-nav-a {
               color: #00921f; }
         .header .nav .nav-ac .nav-ul .nav-li .sub-gywm {
-          width: 304px; }
+          width: 324px; }
         .header .nav .nav-ac .nav-ul .nav-li .sub-yzwd {
-          width: 228px; }
+          width: 243px; }
       .header .nav .nav-ac .nav-ul .on .nav-a {
         margin-top: 5px;
         margin-left: 24px;
@@ -129,7 +129,8 @@
         background: url(../images/li-right-line.png); }
 
 .banner {
-  height: 586px; }
+  height: 586px;
+  border-bottom: 1px solid #e0e0e0; }
   .banner .banner-ac {
     height: 586px;
     position: relative; }
@@ -143,7 +144,6 @@
         text-align: center;
         font-size: 18px;
         background: #fff;
-        /* Center slide text vertically */
         display: -webkit-box;
         display: -ms-flexbox;
         display: -webkit-flex;
@@ -157,7 +157,7 @@
         -webkit-align-items: center;
         align-items: center; }
         .banner .banner-ac .container1 .slide1 .slide1-a {
-          width: 1920px;
+          width: 100%;
           height: 560px;
           margin-top: -25px; }
     .banner .banner-ac .pagination1 {
@@ -172,6 +172,151 @@
         margin-left: 7px;
         margin-bottom: 0;
         float: left;
-        background: url(../images/pagination-bullet.png) no-repeat; }
+        background: url(../images/pagination-bullet.png) no-repeat;
+        opacity: 1; }
       .banner .banner-ac .pagination1 .swiper-pagination-bullet-active {
         background: url(../images/pagination-bullet-now.png) no-repeat; }
+
+.container {
+  padding-top: 17px;
+  background: #f9f9f9; }
+  .container .ac-container .about-us {
+    width: 591px;
+    height: 270px;
+    background: #fff;
+    padding-top: 21px;
+    position: relative; }
+    .container .ac-container .about-us .title-name {
+      height: 16px;
+      margin-left: 24px;
+      padding-left: 14px;
+      font-size: 16px;
+      line-height: 16px;
+      background: url(../images/container-title-bg.png) no-repeat; }
+      .container .ac-container .about-us .title-name .green-title {
+        color: #00921f; }
+      .container .ac-container .about-us .title-name .english-title {
+        font-size: 11px;
+        line-height: 16px;
+        color: #aaaaaa;
+        margin-left: 4px; }
+    .container .ac-container .about-us .main-text {
+      width: 198px;
+      margin-left: 27px;
+      margin-top: 22px;
+      font-size: 12px;
+      line-height: 20px;
+      color: #999; }
+    .container .ac-container .about-us .main-btn {
+      width: 58px;
+      height: 21px;
+      position: absolute;
+      left: 30px;
+      top: 227px;
+      background: #00921f url(../images/button-plus.png) no-repeat;
+      outline: none;
+      border: none;
+      color: #fff;
+      padding-left: 23px;
+      text-align: left;
+      font-size: 12px;
+      line-height: 21px;
+      cursor: pointer; }
+    .container .ac-container .about-us .swiper2-box {
+      width: 366px;
+      height: 190px;
+      position: absolute;
+      left: 237px;
+      top: 58px; }
+      .container .ac-container .about-us .swiper2-box .container2 {
+        width: 305px;
+        height: 190px;
+        position: absolute;
+        left: 0;
+        top: 0; }
+        .container .ac-container .about-us .swiper2-box .container2 .wrapper2 .slide2 {
+          width: 95px;
+          height: 190px;
+          position: relative;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center; }
+          .container .ac-container .about-us .swiper2-box .container2 .wrapper2 .slide2 .slide2-a {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 10; }
+          .container .ac-container .about-us .swiper2-box .container2 .wrapper2 .slide2 .slide2-a-e {
+            background: #089531;
+            opacity: 0.9; }
+          .container .ac-container .about-us .swiper2-box .container2 .wrapper2 .slide2 .slide2-a-o {
+            background: #df9017;
+            opacity: 0.9; }
+          .container .ac-container .about-us .swiper2-box .container2 .wrapper2 .slide2 .ttt {
+            width: 100%;
+            height: 100%;
+            z-index: 11; }
+            .container .ac-container .about-us .swiper2-box .container2 .wrapper2 .slide2 .ttt .slide2-title {
+              width: 100%;
+              height: 13px;
+              position: absolute;
+              top: 66px;
+              font-size: 14px;
+              text-align: center;
+              color: #fff;
+              margin: 0; }
+            .container .ac-container .about-us .swiper2-box .container2 .wrapper2 .slide2 .ttt .slide2-title-e {
+              width: 100%;
+              height: 7px;
+              position: absolute;
+              top: 83px;
+              font-size: 10px;
+              text-align: center;
+              color: #fff;
+              margin: 0; }
+            .container .ac-container .about-us .swiper2-box .container2 .wrapper2 .slide2 .ttt .slide2-btn {
+              width: 58px;
+              height: 20px;
+              border: 2px solid #fff;
+              position: absolute;
+              left: 16.5px;
+              top: 100px;
+              background: url(../images/button-plus.png) no-repeat;
+              background-position: 0 -3px;
+              outline: none;
+              color: #fff;
+              padding-left: 23px;
+              font-size: 12px;
+              line-height: 12px;
+              text-align: left;
+              cursor: pointer; }
+      .container .ac-container .about-us .swiper2-box .next2 {
+        width: 20px;
+        height: 22px;
+        position: absolute;
+        top: 22px;
+        right: 0;
+        background: url(../images/swiper2-next.png); }
+      .container .ac-container .about-us .swiper2-box .next2:hover {
+        background: url(../images/swiper2-next-active.png); }
+      .container .ac-container .about-us .swiper2-box .prev2 {
+        width: 20px;
+        height: 22px;
+        position: absolute;
+        top: 51px;
+        left: auto;
+        right: 0;
+        background: url(../images/swiper2-prev.png); }
+      .container .ac-container .about-us .swiper2-box .prev2:hover {
+        background: url(../images/swiper2-prev-active.png); }
